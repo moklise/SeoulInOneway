@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_logo_element"
+        android:orientation="vertical">
+        
+        <View
+            android:layout_width="30dp"
+            android:layout_height="5dp"
+            android:background="@drawable/background_brightgray_rounded_10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="0dp"
+            android:layout_gravity="center"/>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp">
+
+            <ImageView
+                android:id="@+id/img_user_icon"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:src="@mipmap/ic_launcher_foreground"
+                android:scaleX="2"
+                android:scaleY="2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/txt_user_name"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/txt_user_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Seoul In Oneway"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                app:layout_constraintLeft_toRightOf="@id/img_user_icon"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/txt_user_detail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="나에게 필요한 서울의 다양한 정보를 한번에!"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                app:layout_constraintLeft_toLeftOf="@id/txt_user_name"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_user_name"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000"/>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_1"-->
+            <!--style="@style/Base.Widget.AppCompat.Button.Borderless"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="15dp"-->
+            <!--android:text="메뉴 1"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textAlignment="textStart"-->
+            <!--android:textSize="15dp"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_2"-->
+            <!--style="@style/Base.Widget.AppCompat.Button.Borderless"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="15dp"-->
+            <!--android:text="메뉴 2"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textAlignment="textStart"-->
+            <!--android:textSize="15dp"/>-->
+
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="위치 보정"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textSize="15dp"/>
+
+
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="오픈소스 라이브러리"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textSize="15dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1f000000"/>
+
+        <Button
+            android:id="@+id/btn_setting"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="설정"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

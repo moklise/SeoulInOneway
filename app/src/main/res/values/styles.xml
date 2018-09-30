@@ -1,0 +1,50 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/white</item>
+        <!--<item name="colorPrimaryDark">#F2F2F2</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorBackground">#FAFAFA</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+    <style name="AppTheme.AppBar.BoardMainTitle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:color">#333333</item>
+    </style>
+
+    <style name="ThemeOverlay.Sio.BottomNavigation" parent="">
+        <item name="colorPrimary">?attr/colorAccent</item>
+    </style>
+
+    <style name="Widget.Sio.CollapsingToolbar" parent="">
+        <!--<item name="collapsedTitleTextAppearance">@style/TextAppearance.Shrine.Logo</item>-->
+        <item name="contentScrim">?attr/colorPrimary </item>
+        <item name="expandedTitleGravity">top</item>
+        <item name="expandedTitleMarginStart">60dp</item>
+        <item name="expandedTitleMarginTop">40dp</item>
+        <!--<item name="expandedTitleTextAppearance">@style/TextAppearance.Shrine.Logo</item>-->
+        <item name="scrimVisibleHeightTrigger">140dp</item>
+    </style>
+
+    <style name="Widget.Sio.CollapsingToolbarContent" parent="">
+        <item name="android:layout_marginTop">60dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

@@ -1,0 +1,191 @@
+<resources>
+    <!--<string name="app_name">SeoulInOneWay</string>-->
+    <string name="app_name">SIO</string>
+
+    <string name="latitude_label">Latitude: %f</string>
+    <string name="longitude_label">Longitude: %f</string>
+    <string name="no_location_detected">
+        No location detected. Make sure location is enabled on the device.
+    </string>
+    <string name="permission_denied_explanation">
+        Permission was denied, but is needed for core functionality.
+    </string>
+    <string name="permission_rationale">
+        Location permission is needed for core functionality
+    </string>
+    <string name="settings">Settings</string>
+
+    <string name="info_location_complete">%s시 %s구</string>
+    <string name="info_location_searching">위치정보를 찾고 있습니다.</string>
+    <string name="info_location_error">위치정보를 찾아올 수 없습니다.</string>
+
+    <string name="google_maps_key"></string>
+    <string name="info_license">
+        https://pixabay.com/ko/%EC%8B%9C%EC%9E%A5-%EC%8A%A4%ED%83%A0%EB%93%9C-%ED%96%A5%EC%8B%A0%EB%A3%8C-%EC%9D%8C%EC%8B%9D-%EB%86%8D%EB%AF%BC-%EC%8B%9C%EC%9E%A5-%EC%8B%9C%EC%9E%A5-%EC%8A%A4-%ED%86%A8-%EB%AC%B4%EC%97%AD-3466906/\n
+        https://pixabay.com/ko/%EC%95%84%EB%82%9C%ED%8B%B0-%EC%95%84%EB%82%9C%ED%8B%B0%EB%B6%80%EC%82%B0-%EB%B6%80%EC%82%B0-%EB%A6%AC%EC%A1%B0%ED%8A%B8-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-ananti-3515815/\n
+        https://pixabay.com/ko/%EB%91%90%ED%86%B5-%EA%B3%A0%ED%86%B5-%EC%95%8C%EC%95%BD-%EC%95%BD%EB%AC%BC-%EC%B9%98%EB%A3%8C-%EC%A0%95%EC%A0%9C-%EB%A7%88%EC%95%BD-%EC%95%BD%EA%B5%AD-%EC%9D%98%ED%95%99-1540220/\n
+        https://pixabay.com/ko/%EB%B0%94-%EB%8B%B9%EA%B5%AC-%EC%88%98%EC%98%81%EC%9E%A5-%EC%8A%A4-%EB%88%84-%EC%BB%A4-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8-%EC%9D%8C%EC%A3%BC-601325/\n
+        https://pixabay.com/ko/%EB%82%98%EB%AC%B4-%EC%9E%90%EC%97%B0-%EC%A0%95%EC%9B%90-%EA%B3%B5%EC%9B%90-%EB%8B%B4%EC%96%91-%EC%86%8C%EC%87%A0%EC%9B%90-%ED%95%9C%EA%B5%AD-%EC%A0%84%ED%86%B5-%EC%88%B2-%EC%97%AC%EB%A6%84-3241181/\n
+        https://pixabay.com/ko/%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%9A%95%EC%8B%A4-%ED%99%94%EC%9E%A5%EC%8B%A4-%EA%B8%B0%ED%98%B8-%EC%95%84%EC%9D%B4%EC%BD%98-%EC%82%AC%EB%9E%8C%EB%93%A4-%EA%B3%B5%EA%B0%9C-%EC%9C%84%EC%83%9D-%EC%9B%8C%EC%8B%9C-646935/\n
+        https://pixabay.com/ko/%EC%A3%BC%EC%B0%A8-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%B0%A8%EB%9F%89-%ED%8A%B8%EB%9E%98%ED%94%BD-%EB%8F%84%EC%8B%9C-%EC%A3%BC%EC%B0%A8%EC%9E%A5-%EA%B3%B5%EC%9B%90-825371/\n
+        \n
+        \n
+        icon image\n
+        https://www.flaticon.com/authors/good-ware\n
+        https://www.flaticon.com/authors/freepik\n
+        https://www.flaticon.com/authors/revicon\n
+        https://www.flaticon.com/authors/maxim-basinski\n
+        https://www.flaticon.com/authors/pixel-perfect\n
+        https://www.flaticon.com/authors/vectors-market\n
+        https://www.flaticon.com/authors/freepik\n
+        \n
+        \n
+        <b>Retrofit</b>\n
+        Copyright 2013 Square, Inc.\n
+        \n
+        Licensed under the Apache License, Version 2.0 (the \"License\");
+        you may not use this file except in compliance with the License.\n
+        You may obtain a copy of the License at\n\n
+        http://www.apache.org/licenses/LICENSE-2.0\n\n
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an \"AS IS\" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License
+        \n
+        \n
+        <b>gson</b>\n
+        Copyright 2008 Google Inc.\n
+        \n
+        Licensed under the Apache License, Version 2.0 (the \"License\");\n
+        you may not use this file except in compliance with the License.\n
+        You may obtain a copy of the License at\n
+        \n
+        http://www.apache.org/licenses/LICENSE-2.0\n
+
+        Unless required by applicable law or agreed to in writing, software\n
+        distributed under the License is distributed on an \"AS IS\" BASIS,\n
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n
+        See the License for the specific language governing permissions and\n
+        limitations under the License.\n
+        \n
+        \n
+        <b>swipy</b>\n
+        The MIT License (MIT)\n
+        \n
+        Copyright (c) 2015 OrangeGangsters\n
+        \n
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the \"Software\"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:\n
+        \n
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.\n
+        \n
+        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.\n\n
+        <b>Glide</b>\n
+        License for everything not in third_party and not otherwise marked:\n
+        \n
+        Copyright 2014 Google, Inc. All rights reserved.\n
+        \n
+        Redistribution and use in source and binary forms, with or without modification, are
+        permitted provided that the following conditions are met:\n
+        \n
+        1. Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.\n
+        \n
+        2. Redistributions in binary form must reproduce the above copyright notice, this list
+        of conditions and the following disclaimer in the documentation and/or other materials
+        provided with the distribution.\n
+        \n
+        THIS SOFTWARE IS PROVIDED BY GOOGLE, INC. \"AS IS\" AND ANY EXPRESS OR IMPLIED
+        WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+        FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL GOOGLE, INC. OR
+        CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+        CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+        ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+        ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n
+        \n
+        The views and conclusions contained in the software and documentation are those of the
+        authors and should not be interpreted as representing official policies, either expressed
+        or implied, of Google, Inc.\n
+         ---------------------------------------------------------------------------------------------\n
+        License for third_party/disklrucache:\n
+        \n
+        Copyright 2012 Jake Wharton\n
+        Copyright 2011 The Android Open Source Project\n
+        \n
+        Licensed under the Apache License, Version 2.0 (the \"License\");
+        you may not use this file except in compliance with the License.\n
+        You may obtain a copy of the License at\n
+        \n
+        http://www.apache.org/licenses/LICENSE-2.0\n
+        \n
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an \"AS IS\" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.\n
+         ---------------------------------------------------------------------------------------------\n
+        License for third_party/gif_decoder:\n
+        \n
+        Copyright (c) 2013 Xcellent Creations, Inc.\n
+        \n
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        \"Software\"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:\n
+        \n
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.\n
+        \n
+        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n
+         ---------------------------------------------------------------------------------------------\n
+        License for third_party/gif_encoder/AnimatedGifEncoder.java and
+        third_party/gif_encoder/LZWEncoder.java:\n
+        \n
+        No copyright asserted on the source code of this class. May be used for any
+        purpose, however, refer to the Unisys LZW patent for restrictions on use of
+        the associated LZWEncoder class. Please forward any corrections to
+        kweiner@fmsware.com.\n
+        \n
+         -----------------------------------------------------------------------------\n
+        License for third_party/gif_encoder/NeuQuant.java\n
+        \n
+        Copyright (c) 1994 Anthony Dekker\n
+        \n
+        NEUQUANT Neural-Net quantization algorithm by Anthony Dekker, 1994. See
+        \"Kohonen neural networks for optimal colour quantization\" in \"Network:
+        Computation in Neural Systems\" Vol. 5 (1994) pp 351-367. for a discussion of
+        the algorithm.\n
+        \n
+        Any party obtaining a copy of these files from the author, directly or
+        indirectly, is granted, free of charge, a full and unrestricted irrevocable,
+        world-wide, paid up, royalty-free, nonexclusive right and license to deal in
+        this software and documentation files (the \"Software\"), including without
+        limitation the rights to use, copy, modify, merge, publish, distribute,
+        sublicense, and/or sell copies of the Software, and to permit persons who
+        receive copies from any such party to do so, with the only requirement being\n
+        that this copyright notice remain intact.\n
+    </string>
+</resources>

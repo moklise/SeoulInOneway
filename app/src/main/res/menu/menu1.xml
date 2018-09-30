@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/GCODE1"
+        android:title="종로구"
+    />
+
+    <item
+        android:id="@+id/GCODE2"
+        android:title="용산구"
+        />
+    <item
+        android:id="@+id/GCODE3"
+        android:title="광진구"
+        />
+    <item
+        android:id="@+id/GCODE4"
+        android:title="중랑구"
+        />
+    <item
+        android:id="@+id/GCODE5"
+        android:title="강북구"
+        />
+    <item
+        android:id="@+id/GCODE6"
+        android:title="노원구"
+        />
+    <item
+        android:id="@+id/GCODE7"
+        android:title="서대문구"
+        />
+
+    <item
+        android:id="@+id/GCODE8"
+        android:title="양천구"
+        />
+
+    <item
+        android:id="@+id/GCODE9"
+        android:title="구로구"
+        />
+
+    <item
+        android:id="@+id/GCODE10"
+        android:title="영등포구"
+        />
+
+    <item
+        android:id="@+id/GCODE11"
+        android:title="관악구"
+        />
+
+    <item
+        android:id="@+id/GCODE12"
+        android:title="강남구"
+        />
+
+    <item
+        android:id="@+id/GCODE13"
+        android:title="강동구"
+        />
+
+    <item
+        android:id="@+id/GCODE14"
+        android:title="중구"
+        />
+
+    <item
+        android:id="@+id/GCODE15"
+        android:title="성동구"
+        />
+
+    <item
+        android:id="@+id/GCODE16"
+        android:title="동대문구"
+        />
+
+    <item
+        android:id="@+id/GCODE17"
+        android:title="성북구"
+        />
+
+    <item
+        android:id="@+id/GCODE18"
+        android:title="도봉구"
+        />
+
+    <item
+        android:id="@+id/GCODE19"
+        android:title="은평구"
+        />
+
+    <item
+        android:id="@+id/GCODE20"
+        android:title="마포구"
+        />
+    <item
+        android:id="@+id/GCODE21"
+        android:title="강서구"
+        />
+    <item
+        android:id="@+id/GCODE22"
+        android:title="금천구"
+        />
+    <item
+        android:id="@+id/GCODE23"
+        android:title="동작구"
+        />
+    <item
+        android:id="@+id/GCODE24"
+        android:title="서초구"
+        />
+    <item
+        android:id="@+id/GCODE25"
+        android:title="송파구"
+        />
+
+
+
+
+
+
+
+
+</menu>
